@@ -45,7 +45,7 @@ class CreateChecklist extends Component {
           </Segment>
           <Segment>
             <h1>PNC puesto</h1>
-            <PNCPuesto />
+            {/* <PNCPuesto /> */}
           </Segment>
         </Segment.Group>
       </div>
