@@ -90,7 +90,7 @@ class RowItem extends Component {
             style={{width:"100%",margin:"1em auto", zIndex:'1'}}
           />
         </Table.Cell>
-        <Table.Cell width={2}>
+        {/* <Table.Cell width={2}>
           <Input 
               defaultValue={row.fromTime}
               style={{width:"90%",padding: "1px"}}
@@ -104,7 +104,7 @@ class RowItem extends Component {
               onChange={this.setInput.bind()}
               type = "time"
             />  
-        </Table.Cell>
+        </Table.Cell> */}
         <Table.Cell width={2}>
           <Button 
             icon='delete'
