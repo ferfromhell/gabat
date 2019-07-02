@@ -72,12 +72,12 @@ class DisplayChecklist extends Component {
                 {rows.map((row,i) => <RowItem key={i} row={row} index={i}/>)}    
               </Table.Body>
             </Table>
-            {/* {rows.length >0?
+            {rows.length >0?
               <Button 
                 icon='save' 
                 onClick={this.saveTable}
                 positive
-              />:null} */}
+              />:null}
           </Segment>
           <Segment>
             <h1>Checklist riesgos</h1>
